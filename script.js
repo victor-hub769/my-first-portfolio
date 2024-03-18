@@ -3,15 +3,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const parent = document.querySelector(".parent");
     const child = document.querySelector(".child");
 
-    grandparent.addEventListener("click", function(e) {
-        console.log("Clicked grandparent", e);
+    grandparent.addEventListener("click", function() {
+        grandparent.textContent = "Clicked grandparent";
     });
 
-    parent.addEventListener("click", function(e) {
-        console.log("Clicked parent", e);
+    parent.addEventListener("click", function() {
+        parent.textContent = "Clicked parent";
     });
 
-    child.addEventListener("click", function(e) {
-        console.log("Clicked child", e);
+    child.addEventListener("click", function() {
+        child.textContent = "Clicked child";
     });
 });
