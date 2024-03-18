@@ -1,2 +1,3 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const grandparent = document.querySelector(".grandparent")
+const parent = document.querySelector(".parent")
+const child = document.querySelector(".child")
